@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'REM', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 1166px;
+    margin: 0 auto;
+}
+header{
+    background-color:  rgba(234, 88, 12, 0.05);
+}
+/* ===============here start navber section design========== */
+#navber{
+    background: #FFF;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+}
+#navber .nav_menu_box{
+
+}
+#navber .nav_logo{
+
+}
+#navber .nav_menu_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#navber .nav_logo_img{
+width: 236px;
+height: 60px;
+}
+#navber .nav_menu{
+    
+}
+#navber .nav_menu_ul{
+    list-style: none;
+}
+
+#navber .nav_menu_li{
+display: inline-block;
+color: #71717A;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 22.5px;
+margin-left: 16px;
+}
+#navber .first_li{
+    color: #EA580C;
+}
+#navber .nav_button{
+background-color: #EA580C;
+border-radius: 15px;
+color: #FFF;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+border: none;
+width: 200px;
+height: 50px;
+}
+.nav_Dicon{
+    margin-right: 10px;
+}
+/* ===============here end the navber section design========= */
+/* ============benner part design here=========== */
+.benner_box{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding-top: 200px;
+}
+.benner_text_area{
+
+}
+.benner_subsBtn{
+width: 231px;
+height: 44px;
+border-radius: 9999px;
+border: 2px solid rgba(234, 88, 12, 0.20);
+background: rgba(233, 226, 72, 0.00)
+}
+.subsBtn_box{
+    position: relative;
+}
+.subs_icon{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    padding: 10px;
+    transform: translateY(-50%);
+    width: 41.026px;
+    height: 40px;
+    border: none;
+    border-radius: 9999px;
+    font-size: 24px;
+    border-radius: roted;
+    background-color:rgba(234, 88, 12, 0.20); ;
+}
+.benner_headding{
+    color: #09090B;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 60px; 
+}
+.benner_info{
+    color: #71717A;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 38px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.benner_startBtn{
+background-color: #EA580C;
+border-radius: 15px;
+color: #FFF;
+font-size: 22px;
+font-weight: 500;
+line-height: 38px;
+width: 200px;
+border: none;
+height: 50px;
+}
+.benner_img_area{
+    width: 662px;
+    height: 428px;
+}
+.benner_img{
+    width: 662px;
+    height: 428px;
+}
+
+/* ============benner part design end  here=========== */
+/* ============benner card  part design stert  here=========== */
+
+
+
+/* ============benner card  part design end  here=========== */
